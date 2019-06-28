@@ -1,0 +1,50 @@
+.heading{
+    background: #005cbf;
+    color: #9fcdff;
+    padding: 20px;
+    width: 100%;
+    height: 80px;
+}
+.footer{
+    font-family: ADELE;
+    background: #070c06;
+}
+.navbar-dark{
+    margin-bottom: 5px;
+    background: blue;
+}
+.row{
+    color: white;
+    font-family: "Apple Color Emoji";
+    font-size: 20px;
+}
+.dropdown-menu{
+    color: #005cbf;
+}
+.text-center{
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family: "Serif r";
+
+}
+p{
+    color: white;
+}
+.material-icons{
+    font-size: 35px;
+}
+#red {
+    color: black;
+}
+#n{
+    font-size: 15px;
+}
+h6 {
+    padding-top: 10px;
+}
+.o, h6 {
+    font-size: 15px;
+    text-align: center;
+    font-family: "Segoe UI";
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Navigation Bar</title>
+    <link rel="icon" href="images/mercedes_benz_mercedes_amg_front_view_silver_wood_100115_1920x1080.jpg">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css1/custom.css1.css">
+    <script src="bootstrap-4.3.1-dist/js/jquery-3.4.1.slim.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/popper.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <style>
+        body{
+            background-image: url("images/balloon_flight_plant_91681_2560x1080.jpg");
+            background-size: cover;
+        }
+        .dropdown-item{
+            color: #005cbf;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+    </form>
+</nav>
+
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#"><img src="images/bmw_vision_efficientdynamics_concept_100297_1680x1050.jpg" alt="logo" width="50px" height="50px"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    About Us</a>
+                <div class="dropdown-menu">
+                    <a class="list-group-item" href="#">0703134423</a>
+                    <a class="list-group-item" href="#">Facebook</a>
+                    <a class="list-group-item" href="#">Instagram</a>
+                </div>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Products and Services
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Computer and Computer Accessories</a>
+                    <a class="dropdown-item" href="#">VSAT Installation</a>
+                    <a class="dropdown-item" href="#">CCTV Installation</a>
+                    <a class="dropdown-item" href="#">Graphic Design</a>
+                    <a class="dropdown-item" href="#">Website Design</a>
+                    <a class="dropdown-item" href="#">Software and Development</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Frequently Asked Questions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/slides/tech1.jpg" alt="Tech 1" width="100%" height="400">
+            <div class="carousel-caption">
+                <h3>Tech 1</h3>
+                <p>Technology in Image1!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slides/tech2.jpg" alt="Tech 2" width="100%" height="400">
+            <div class="carousel-caption">
+                <h3>Tech 2</h3>
+                <p>Technology in Image2!</p>
+            </div>
+        <div class="carousel-item">
+            <img src="images/slides/tech3.jpg" alt="Tech 3" width="100%" height="400">
+            <div class="carousel-caption">
+                <h3>Tech 3</h3>
+                <p>Technology in Image3!</p>
+            </div>
+        </div>
+            <div class="carousel-item">
+                <img src="images/slides/tech4.jpg" alt="Tech 4" width="100%" height="400">
+                <div class="carousel-caption">
+                    <h3>Tech 4</h3>
+                    <p>Technology in Image4</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slides/tech5.jpg" alt="Tech 5" width="100%" height="400">
+                <div class="carousel-caption">
+                    <h3>Tech 5</h3>
+                    <p>Technology in Image5</p>
+                </div>
+            </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+    <div class="container">
+
+<div class="row">
+    <div class="col-sm-4">
+        <h3 class="text-center">About Us</h3>
+        <p class="text-justify"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa, distinctio eligendi ex facere itaque magni nihil obcaecati odit omnis quae quisquam quo rem repudiandae saepe soluta temporibus totam ut.</span><span>Consectetur doloremque eligendi fuga ipsa laborum laudantium maxime praesentium quidem reiciendis veritatis? A aperiam consequuntur eligendi expedita facilis incidunt officia reiciendis totam. Amet, consectetur debitis deserunt dolorem non quisquam vitae?</span></p>
+        <p class="text-center"><a href="#" class="btn btn-primary">Read More</a></p>
+    </div>
+
+    <div class="col-sm-4">
+        <h3 class="text-center">FAQ</h3>
+        <p class="text-justify"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa, distinctio eligendi ex facere itaque magni nihil obcaecati odit omnis quae quisquam quo rem repudiandae saepe soluta temporibus totam ut.</span><span>Consectetur doloremque eligendi fuga ipsa laborum laudantium maxime praesentium quidem reiciendis veritatis? A aperiam consequuntur eligendi expedita facilis incidunt officia reiciendis totam. Amet, consectetur debitis deserunt dolorem non quisquam vitae?</span></p>
+        <p class="text-center"><a href="#" class="btn btn-success">Read More</a></p>
+    </div>
+    <div class="col-sm-4">
+        <h3 class="text-center">Contact Us</h3>
+        p class="text-justify"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa, distinctio eligendi ex facere itaque magni nihil obcaecati odit omnis quae quisquam quo rem repudiandae saepe soluta temporibus totam ut.</span><span>Consectetur doloremque eligendi fuga ipsa laborum laudantium maxime praesentium quidem reiciendis veritatis? A aperiam consequuntur eligendi expedita facilis incidunt officia reiciendis totam. Amet, consectetur debitis deserunt dolorem non quisquam?</span></p>
+        <p class="text-center"><a href="#" class="btn btn-info">Read More</a></p>
+    </div>
+</div>
+</div>
+    <div class="footer">
+        <h2 class="text-center">Copyright &copy; 2019. eMobilies Mobile Technology Institute</h2>
+    </div>
+</body>
+</html>
